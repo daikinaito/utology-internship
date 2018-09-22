@@ -23,11 +23,13 @@ if (isset($_POST['text'])){
         <input type="text" name="text"><br>
         <button type=submit>送信</button>
     </form>
-    <?php
-      $file = "2-4.txt";
-      $contents = file_get_contents($file);
-      echo $contents;
-    ?>
+    <pre>
+      <?php
+        $file = "2-4.txt";
+        $contents = file_get_contents($file);
+        echo $contents;
+      ?>
+    </pre>
 </body>
 </html>
 
