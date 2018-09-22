@@ -13,7 +13,7 @@
     <h1>2-5</h1>
     <?php
     if (!isset($_SESSION['count'])) {
-      $_SESSION['count'] = 0;
+      $_SESSION['count'] = 1;
     } else {
       $_SESSION['count']++;
     }
