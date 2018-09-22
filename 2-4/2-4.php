@@ -24,11 +24,11 @@ if (isset($_POST['text'])){
         <button type=submit>送信</button>
     </form>
     <pre>
-      <?php
-        $file = "2-4.txt";
-        $contents = file_get_contents($file);
-        echo $contents;
-      ?>
+<?php
+  $file = "2-4.txt";
+  $contents = file_get_contents($file);
+  echo $contents;
+?>
     </pre>
 </body>
 </html>
